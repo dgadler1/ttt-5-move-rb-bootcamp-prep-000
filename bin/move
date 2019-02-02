@@ -2,5 +2,13 @@
 
 require_relative '../lib/move.rb'
 
-puts "Chooe a spot 1-9 (1 being top left) you move"
- = grab.strip
+puts "Welcome to Tic Tac Toe!"
+puts Where would you like to go?
+spot = gets.to_i
+
+spot.strip
+
+input_to_index(spot)
+
+
+display_board(newspot.chomp)
